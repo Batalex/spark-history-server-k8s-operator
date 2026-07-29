@@ -36,5 +36,10 @@
       groupName: "Charm dependencies",
       groupSlug: "charm-deps",
     },
+    {
+      description: "Require manual approval on Dashboard for major updates",
+      matchUpdateTypes: ["major"],
+      dependencyDashboardApproval: true,
+    },
   ],
 }
